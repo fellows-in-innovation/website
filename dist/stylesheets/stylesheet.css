@@ -36,7 +36,17 @@ a {
 
 @media screen and (min-width: 64em) {
   .btn {
-    padding: 0.75rem 1rem; } }
+    padding: 0.75rem 1rem;
+  }
+
+  .event-images img {
+    width: 400px;
+  }
+
+  .event-images img:last-child {
+    float: right;
+  }
+}
 
 @media screen and (min-width: 42em) and (max-width: 64em) {
   .btn {
@@ -113,8 +123,7 @@ a {
   margin-bottom: 1rem;
   font-weight: 700;
   color: #205493; }
-.main-content h4 {
-  color: #cd2026; }
+.main-content .alt { color: #cd2026; }
 .main-content p {
   margin-bottom: 1em; }
 .main-content code {
