@@ -1,7 +1,9 @@
 ---
 applications:
 - name: fellows-in-innov
-  memory: 64M
+  domain: pif.gov
+  host: fellows-in-innovation
+  memory: 16M
   buildpack: https://github.com/cloudfoundry/staticfile-buildpack.git
   path: dist
   env:
