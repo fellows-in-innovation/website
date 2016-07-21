@@ -5,6 +5,5 @@ applications:
   host: fellows-in-innovation
   memory: 16M
   buildpack: https://github.com/cloudfoundry/staticfile-buildpack.git
-  path: dist
   env:
     FORCE_HTTPS: true
